@@ -17,7 +17,7 @@ async function run() {
                     email VARCHAR(256) NOT NULL,
                     hash VARCHAR(512) NOT NULL
                 );           
-                CREATE TABLE animals (
+                CREATE TABLE todo (
                     id SERIAL PRIMARY KEY NOT NULL,
                     todo VARCHAR(512) NOT NULL,
                     completed BOOLEAN NOT NULL,
