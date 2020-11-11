@@ -19,8 +19,8 @@ async function run() {
                 );           
                 CREATE TABLE animals (
                     id SERIAL PRIMARY KEY NOT NULL,
-                    name VARCHAR(512) NOT NULL,
-                    cool_factor INTEGER NOT NULL,
+                    todo VARCHAR(512) NOT NULL,
+                    completed BOOLEAN NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
             );
         `);
